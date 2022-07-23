@@ -13,22 +13,22 @@ import Menu from 'primevue/menu';
                 {
                     label: 'View Completed',
                     icon: 'pi pi-check-square', 
-                    url: 'CompletedTasks.vue'
+                    url: '../views/CompletedTasks.vue'
                 },
                 {
                     label: 'Delete',
                     icon: 'pi pi-trash',
-                    url: ''
+                    url: '../views/DeletedTasks.vue'
                 },
                 {
                     label: 'View Archived',
                     icon: 'pi pi-cloud-upload',
-                    url: ''
+                    url: '../views/Archived.vue'
                 },
                 {
                     label: 'View All',
                     icon: 'pi pi-list',
-                    url: ''
+                    url: '../views/AllTask.vue'
                 },                                                                
             ]},
         ]);
