@@ -8,36 +8,34 @@ import Menu from 'primevue/menu';
                 items: [{
                     label: 'Search',
                     icon: 'pi pi-search',
-                    uri: './LeftNavigation.vue'
+                    url: './LeftNavigation.vue'
                 },
                 {
                     label: 'View Completed',
                     icon: 'pi pi-check-square', 
-                    uri: ''
+                    url: 'CompletedTasks.vue'
                 },
                 {
                     label: 'Delete',
                     icon: 'pi pi-trash',
-                    uri: ''
+                    url: ''
                 },
                 {
                     label: 'View Archived',
                     icon: 'pi pi-cloud-upload',
-                    uri: ''
+                    url: ''
                 },
                 {
                     label: 'View All',
                     icon: 'pi pi-list',
-                    uri: ''
+                    url: ''
                 },                                                                
             ]},
         ]);
 </script>
 
 <template>
-    <div style="background-color:brown;width:50px">
            <Menu :model="items" />
-    </div>
 </template>
 
 <style lang="scss" scoped>
