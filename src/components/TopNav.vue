@@ -1,6 +1,9 @@
 <script setup lang="ts">
 import { ref } from 'vue';
 import { useToast } from 'primevue/usetoast';
+import Button from 'primevue/button';
+import Menu from 'primevue/menu';
+import 'primeicons/primeicons.css';
 
 const tempName = ref('TO DO APP')
 
@@ -43,14 +46,14 @@ const tempName = ref('TO DO APP')
 </script>
 
 <template>
-<div>
+    <div>
        <Toast />
 
         <h5>Inline</h5>
-        <Menu :model="items" />
 
         <h5>Overlay</h5>
-        <Button type="button" label="Toggle" @click="toggle" aria-haspopup="true" aria-controls="overlay_menu" />
+        <a href="#"><i class="pi pi-bars" @click="toggle" aria-haspopup="true" aria-controls="overlay_menu"></i></a>
+        <!-- <Button type="button" label="Toggle" @click="toggle" aria-haspopup="true" aria-controls="overlay_menu" /> -->
         <Menu id="overlay_menu" ref="menu" :model="items" :popup="true" />
     </div>
 </template>
