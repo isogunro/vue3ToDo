@@ -1,5 +1,4 @@
 <script setup lang="ts">
-
 import { ref } from 'vue';
 import { useToast } from 'primevue/usetoast';
 
@@ -44,6 +43,7 @@ const tempName = ref('TO DO APP')
 </script>
 
 <template>
+<div>
        <Toast />
 
         <h5>Inline</h5>
