@@ -1,6 +1,8 @@
 <template>
     <div>
-<h3>ABOUT</h3>
+        <h3>ABOUT</h3>
+        <div class="card">
+    </div>
     </div>
 </template>
 
