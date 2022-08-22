@@ -8,27 +8,27 @@ import Menu from 'primevue/menu';
                 items: [{
                     label: 'Search',
                     icon: 'pi pi-search',
-                    url: './LeftNavigation.vue'
+                    url: '/Search'
                 },
                 {
                     label: 'View Completed',
                     icon: 'pi pi-check-square', 
-                    url: '../views/CompletedTasks.vue'
+                    url: '/Completedtasks'
                 },
                 {
                     label: 'Delete',
                     icon: 'pi pi-trash',
-                    url: '../views/DeletedTasks.vue'
+                    url: '/DeletedTasks'
                 },
                 {
                     label: 'View Archived',
                     icon: 'pi pi-cloud-upload',
-                    url: '../views/Archived.vue'
+                    url: '/Archived'
                 },
                 {
                     label: 'View All',
                     icon: 'pi pi-list',
-                    url: '../views/AllTask.vue'
+                    url: '/AllTask'
                 },                                                                
             ]},
         ]);
